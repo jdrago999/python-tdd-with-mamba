@@ -1,6 +1,13 @@
 
 # Python TDD with Mamba
 
+A simple Python TDD example using:
+
+  * chef (for provisioning)
+  * vagrant (for development environment)
+  * [expects](https://github.com/jaimegildesagredo/expects) (for assertions)
+  * [mamba](https://github.com/nestorsalceda/mamba) (for BDD testing)
+
 ## Usage
 
 ```bash
