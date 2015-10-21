@@ -1,5 +1,8 @@
 
 from expects import *
+import doublex
+from expects.testing import failure
+from doublex_expects import *
 import sys
 sys.path.insert(0, 'foo')
 from foo import Foo
