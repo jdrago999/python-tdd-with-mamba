@@ -3,8 +3,8 @@
 
 A simple Python TDD example using:
 
-  * chef (for provisioning)
-  * vagrant (for development environment)
+  * [chef](https://github.com/chef/chef) (for provisioning)
+  * [vagrant](https://github.com/mitchellh/vagrant) (for development environment)
   * [expects](https://github.com/jaimegildesagredo/expects) (for assertions)
   * [doublex](https://pypi.python.org/pypi/doublex) (for mocking and method-call assertions)
   * [doublex-expects](https://github.com/jaimegildesagredo/doublex-expects) (for more expectation + assertion goodness)
