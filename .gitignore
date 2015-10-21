@@ -1,0 +1,6 @@
+
+.vagrant
+chef/cookbooks
+chef/tmp
+*.pyc
+
