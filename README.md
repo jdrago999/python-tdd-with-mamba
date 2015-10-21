@@ -6,6 +6,8 @@ A simple Python TDD example using:
   * chef (for provisioning)
   * vagrant (for development environment)
   * [expects](https://github.com/jaimegildesagredo/expects) (for assertions)
+  * [doublex](https://pypi.python.org/pypi/doublex) (for mocking and method-call assertions)
+  * [doublex-expects](https://github.com/jaimegildesagredo/doublex-expects) (for more expectation + assertion goodness)
   * [mamba](https://github.com/nestorsalceda/mamba) (for BDD testing)
 
 ## Usage
@@ -29,6 +31,10 @@ mamba
 ```python
 ## File: spec/foo_spec.py
 from expects import *
+import doublex
+from expects.testing import failure
+from doublex_expects import *
+
 import sys
 sys.path.insert(0, 'foo')
 from foo import Foo

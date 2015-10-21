@@ -8,6 +8,8 @@ package 'python-pip'
 %w(
   mamba
   expects
+  doublex-expects
+  doublex
 ).each do |pkg|
   bash "install #{pkg} python module" do
     code "pip install #{pkg}"
