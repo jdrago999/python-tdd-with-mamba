@@ -105,7 +105,6 @@ If that prints `100%` then you're finished. Otherwise, keep adding tests.
 
 `coverage html` will produce a nice report for you like the one below:
 
-!["Summary View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-summary.png Summary View)
+!["Summary View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-summary.png)
 
-!["Detail View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-detail.png Detail View)
-
+!["Detail View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-detail.png)
