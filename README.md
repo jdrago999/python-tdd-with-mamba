@@ -107,5 +107,5 @@ If that prints `100%` then you're finished. Otherwise, keep adding tests.
 
 !["Summary View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-summary.png Summary View)
 
-!["Detail View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-summary.png Detail View)
+!["Detail View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-detail.png Detail View)
 
