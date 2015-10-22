@@ -9,11 +9,11 @@ from foo import Foo
 
 with description(Foo):
     with description('#bar'):
-        with before.each:
-            global baz
-            baz = {'msg': 'good data'}
         with context('when data'):
             with context('is good'):
+                with before.each:
+                    global baz
+                    baz = {'msg': 'good data'}
                 with it('returns True'):
                     foo = Foo()
                     expect(foo.bar(baz)).to(be_true)
@@ -24,3 +24,16 @@ with description(Foo):
                 with it('returns False'):
                     foo = Foo()
                     expect(foo.bar(baz)).to(be_false)
+    with description('#bux(name)'):
+        with context('when name ends with'):
+            with context('a vowel'):
+                with it('returns 0'):
+                    foo = Foo()
+                    expect(foo.bux('viola')).to(equal(0))
+            with context('a consonant'):
+                with it('returns 1'):
+                    foo = Foo()
+                    expect(foo.bux('cats')).to(equal(1))
+
+
+

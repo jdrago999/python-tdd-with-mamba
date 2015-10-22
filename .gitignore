@@ -4,3 +4,5 @@ chef/cookbooks
 chef/tmp
 *.pyc
 
+.coverage
+coverage/

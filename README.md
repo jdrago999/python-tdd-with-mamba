@@ -69,3 +69,25 @@ class Foo:
 ```
 
 ![""](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/mamba-screenshot.png)
+
+### Coverage Reports
+
+#### Continuous Integration
+
+Mamba already comes with `coverage`, so just:
+
+```bash
+mamba --enable-coverage
+coverage report -m | tail -n 1 | awk '{print $6}'
+```
+
+If that prints `100%` then you're finished. Otherwise, keep adding tests.
+
+#### HTML Reports
+
+`coverage html` will produce a nice report for you like the one below:
+
+!["Summary View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-summary.png Summary View)
+
+!["Detail View"](https://raw.github.com/jdrago999/python-tdd-with-mamba/master/examples/coverage-summary.png Detail View)
+
